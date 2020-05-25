@@ -1,0 +1,3 @@
+sudo snap install protobuf --classic
+mkdir chat
+protoc --go_out=plugins=grpc:chat chat.proto
