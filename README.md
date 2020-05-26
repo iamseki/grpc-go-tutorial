@@ -18,11 +18,11 @@ If you want to generate `chat.pb.go`
 
 expected output in **client** terminal :
 
-    `
-      Response from Server: Hello from the Server!
-    `
+    
+     Response from Server: Hello from the Server!
+    
 expected output in **server** terminal :
 
-    `
-      Response from Server: Hello from the Server!
-    `
+    
+     Response from Server: Hello from the Server!
+    
