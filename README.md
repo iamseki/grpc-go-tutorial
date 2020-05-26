@@ -1,10 +1,10 @@
 ## :wrench: Setup
   - If you want to generate `chat.pb.go`
-  > sudo apt update && sudo apt install snapd
+  > `sudo apt update && sudo apt install snapd`
 
-  > sudo snap install protobuf --classic
+  > `sudo snap install protobuf --classic`
 
-  >  protoc --go_out=plugins=grpc:chat chat.proto
+  > ` protoc --go_out=plugins=grpc:chat chat.proto`
   
 ---
 
