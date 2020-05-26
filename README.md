@@ -1,11 +1,10 @@
 ## :wrench: Setup
-  - this simple is running on Ubuntu 18.04, you'll need protoc compiler.
+  - If you want to generate `chat.pb.go`
   > sudo apt update && sudo apt install snapd
 
   > sudo snap install protobuf --classic
 
-If you want to generate `chat.pb.go`
- >  protoc --go_out=plugins=grpc:chat chat.proto
+  >  protoc --go_out=plugins=grpc:chat chat.proto
   
 ---
 
